@@ -225,9 +225,4 @@ def predict(model_name, user_ids, params):
         filt2 = res_df['cluster'] == cluster_value
         res_df =res_df[filt2]
         
-        
-
-
-
-
     return res_df
